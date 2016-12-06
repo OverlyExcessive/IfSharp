@@ -9,7 +9,7 @@ module FSharp.Charting
 #r "/usr/lib/cli/gdk-sharp-3.0/gdk-sharp.dll"
 #r "/usr/lib/cli/atk-sharp-3.0/atk-sharp.dll"
 #r "/usr/lib/cli/glib-sharp-3.0/glib-sharp.dll"
-#r "/usr/lib/mono/4.0/Mono.Cairo.dll"
+#r "/usr/lib/mono/4.5/Mono.Cairo.dll"
 #r "OxyPlot.dll"
 #r "OxyPlot.GtkSharp.dll"
 #r "FSharp.Charting.Gtk.dll"
