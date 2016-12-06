@@ -8,6 +8,7 @@ RUN apt-key adv \
     && apt-get update \
     && apt-get install -y \
         mono-complete \
+        gtk-sharp3 \
         fsharp \
         python3-pip \
         git \
@@ -16,7 +17,7 @@ RUN apt-key adv \
 RUN pip3 install --upgrade pip && pip3 install jupyter
 
 WORKDIR /
-RUN git clone https://github.com/fsprojects/IfSharp.git
+RUN git clone https://github.com/OverlyExcessive/IfSharp.git
 
 WORKDIR /IfSharp
 RUN ./build.sh
